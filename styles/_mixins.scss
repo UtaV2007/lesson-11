@@ -1,0 +1,21 @@
+
+@mixin list() {
+    font-family: $main-font;
+    font-weight: $bold-fontweight;
+    font-size: $small-font-size;
+    color: $light-gray-color;
+    margin-bottom: 10px;
+}
+
+@mixin listing($margin: 0) {
+    display: inline-block;
+    margin-top: 59px;
+    list-style-type: none;
+    margin-left: $margin;
+}
+
+@mixin text($big-font-size: 20px) {
+    font-weight: $bold-fontweight;
+    font-size: $big-font-size;
+    font-family: $main-font;
+}

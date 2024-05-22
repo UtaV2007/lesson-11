@@ -1,0 +1,219 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+body {
+	background-color: $white-background;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: $white-background;
+    z-index: 99;
+
+    nav {
+        width: 1166px;
+        height: 30px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 11px;
+        font-family: $main-font;
+        margin-right: 35px;
+        color: black;
+        font-weight: 700;
+        line-height: 12.89px;
+    }
+
+    #pfp {
+        vertical-align: middle;
+    }
+    
+}
+
+
+
+main {
+	width: 1166px;
+	margin: 76px auto 0;
+
+    h1 {
+        @include text();
+        line-height: 28.13px;
+        margin-bottom: 30px;
+        margin-top: 57px;
+    }
+
+    .beach {
+        width: 362px;
+        position: relative;
+        margin-right: 35px;
+        display: inline-block;
+
+        .absolute {
+            position: absolute;
+            top: 35px;
+            left: 40px;
+            color: $white-color;
+            line-height: 23.44px;
+            @include text();
+        }
+        
+        .white {
+            background-color: $white-color;
+            height: 170px;
+        }
+        
+        .absolutetext {
+            width: 238px;
+            color: $gray-color;
+            padding: 68px 87px 0 37px;
+            margin: 0;
+            @include text($big-font-size: 12px)
+        }
+        
+        .time {
+            margin-top: 11px;
+            margin-left: 40px;
+        }
+        .clock {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        p { 
+            color: $gray-color;
+            display: inline-block;
+            @include text($big-font-size: 12px)
+        }
+    }
+
+    
+    #beachlast {
+        width: 362px;
+        position: relative;
+        display: inline-block;
+
+        .absolute {
+            position: absolute;
+            top: 35px;
+            left: 40px;
+            color: $white-color;
+            line-height: 23.44px;
+            @include text();      
+         }
+        
+        .white {
+            background-color: $white-color;
+            height: 170px;
+        }
+        
+        .absolutetext {
+            width: 238px;
+            @include text($big-font-size: 12px);
+            color: #8A8787;
+            padding: 68px 87px 0 37px;
+            margin: 0;
+        }
+        
+        .time {
+            margin-top: 11px;
+            margin-left: 40px;
+        }
+        .clock {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        p { 
+            color: $gray-color;
+            display: inline-block;
+            @include text($big-font-size: 12px)
+        }
+    }
+    
+    #first {
+        width: 758px;
+        position: relative;
+        display: inline-block;
+        margin-right: 40px;
+
+        #absolute1 {
+            position: absolute;
+            @include text();
+            color: $white-color;
+            line-height: 23.44px;
+            top: 204px;
+            right: 278px;
+            left: 278px;
+        }
+        
+        #big {
+            display: inline-block;
+            margin-bottom: 40px;
+        }
+    }
+
+    
+    #second {
+        width: 362px;
+        display: inline-block;
+        vertical-align: top;
+
+        
+    .img {
+        display: inline-block;
+        margin-bottom: 100px;
+    }
+    
+    }
+}
+
+footer {
+	width: 100%;
+	height: 200px;
+	background-color: $black-color;
+    margin-bottom: 50px;
+
+    #thelast {
+        margin: 0 auto;
+        width: 1166px;
+
+        #listing1 {
+            @include listing();
+
+            .list {
+                @include list();
+            }
+        }
+
+        .listing {
+
+            @include listing($margin: 120px);
+
+            .list {
+                @include list();
+            }
+        }
+        #text {
+            font-family: $main-font;
+            font-weight: $nonbold-font-weight;
+            font-size: $small-font-size;
+            color: $white-color;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 59px;
+            margin-left: 100px;
+        }
+        
+        #bu {
+            vertical-align: top;
+            margin-top: 59px;
+            margin-left: 350px;
+        }
+    }
+}

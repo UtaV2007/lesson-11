@@ -1,0 +1,261 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #F1F1F1;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #F1F1F1;
+  z-index: 99;
+}
+header nav {
+  width: 1166px;
+  height: 30px;
+  padding: 20px;
+  margin: 0 auto;
+}
+header a {
+  text-decoration: none;
+  font-size: 11px;
+  font-family: "Roboto", sans-serif;
+  margin-right: 35px;
+  color: black;
+  font-weight: 700;
+  line-height: 12.89px;
+}
+header #pfp {
+  vertical-align: middle;
+}
+
+main {
+  width: 1166px;
+  margin: 76px auto 0;
+}
+main h1 {
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  line-height: 28.13px;
+  margin-bottom: 30px;
+  margin-top: 57px;
+}
+main .beach {
+  width: 362px;
+  position: relative;
+  margin-right: 35px;
+  display: inline-block;
+}
+main .beach .absolute {
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  color: #FFFFFF;
+  line-height: 23.44px;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+main .beach .white {
+  background-color: #FFFFFF;
+  height: 170px;
+}
+main .beach .absolutetext {
+  width: 238px;
+  color: #8A8787;
+  padding: 68px 87px 0 37px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+main .beach .time {
+  margin-top: 11px;
+  margin-left: 40px;
+}
+main .beach .clock {
+  display: inline-block;
+  vertical-align: middle;
+}
+main .beach p {
+  color: #8A8787;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+main #beachlast {
+  width: 362px;
+  position: relative;
+  display: inline-block;
+}
+main #beachlast .absolute {
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  color: #FFFFFF;
+  line-height: 23.44px;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+main #beachlast .white {
+  background-color: #FFFFFF;
+  height: 170px;
+}
+main #beachlast .absolutetext {
+  width: 238px;
+  font-weight: 700;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: #8A8787;
+  padding: 68px 87px 0 37px;
+  margin: 0;
+}
+main #beachlast .time {
+  margin-top: 11px;
+  margin-left: 40px;
+}
+main #beachlast .clock {
+  display: inline-block;
+  vertical-align: middle;
+}
+main #beachlast p {
+  font-family: "Roboto", sans-serif;
+  color: #8A8787;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 11px;
+}
+main #first {
+  width: 758px;
+  position: relative;
+  display: inline-block;
+  margin-right: 40px;
+}
+main #first #absolute1 {
+  position: absolute;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+  line-height: 23.44px;
+  top: 204px;
+  right: 278px;
+  left: 278px;
+}
+main #first #big {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+main #second {
+  width: 362px;
+  display: inline-block;
+  vertical-align: top;
+}
+main #second .img {
+  display: inline-block;
+  margin-bottom: 100px;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #243043;
+  margin-bottom: 50px;
+}
+footer #thelast {
+  margin: 0 auto;
+  width: 1166px;
+}
+footer #thelast #listing1 {
+  display: inline-block;
+  margin-top: 59px;
+  list-style-type: none;
+  margin-left: 0;
+}
+footer #thelast #listing1 .list {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  color: #818687;
+  margin-bottom: 10px;
+}
+footer #thelast .listing {
+  display: inline-block;
+  margin-top: 59px;
+  list-style-type: none;
+  margin-left: 120px;
+}
+footer #thelast .listing .list {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  color: #818687;
+  margin-bottom: 10px;
+}
+footer #thelast #text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #FFFFFF;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 59px;
+  margin-left: 100px;
+}
+footer #thelast #bu {
+  vertical-align: top;
+  margin-top: 59px;
+  margin-left: 350px;
+}
